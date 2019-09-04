@@ -9,8 +9,7 @@ class LogIn extends StatelessWidget {
       resizeToAvoidBottomPadding: false,
       appBar: AppBar(
         title: Text("LogIn"),
-        centerTitle: true,
-        backgroundColor: Colors.purple.shade700,
+        backgroundColor: Colors.purple.shade900,
       ),
       body: Stack(
         children: <Widget>[

@@ -8,7 +8,7 @@ class CreateNewAccount extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Add Employee'),
-        backgroundColor: Colors.purple.shade700,
+        backgroundColor: Colors.purple.shade900,
       ),
       body: _CreateAccountFields(),
     );

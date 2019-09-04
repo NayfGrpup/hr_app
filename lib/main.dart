@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:hr_project/splash_screen.dart';
-
 void main() => runApp(HrMain());
 
 class HrMain extends StatelessWidget {
@@ -9,7 +8,7 @@ class HrMain extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Nayf Group',
-      home: SplashScreen(),
+      home:SplashScreen(),
     );
   }
 }

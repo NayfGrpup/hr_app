@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hr_project/employeeScreen/homeEmployee.dart';
 import 'package:hr_project/new_account/create_new_account.dart';
 
 class FormLogIn extends StatefulWidget {
@@ -53,7 +54,9 @@ class _FormLogInState extends State<FormLogIn> {
             minWidth: 180.0,
             height: 45.0,
             child: RaisedButton(
-                onPressed: () => debugPrint("hello"),
+                onPressed: (){
+                Navigator.push(context, MaterialPageRoute(builder:(context)=>HomeEmp()));
+                },
                 child: Text('LOGIN',
                 style: TextStyle(
                   fontSize: 25.0
