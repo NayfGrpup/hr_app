@@ -1,18 +1,17 @@
-import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:hr_project/employeeScreen/cardStamp/cardStamp.dart';
-import 'package:hr_project/employeeScreen/profile/profiles.dart';
+import 'package:hr_project/employee_screen/card_stamp/card_stamp.dart';
+import 'package:hr_project/employee_screen/profile/profiles.dart';
 import 'package:hr_project/login/login.dart';
-import 'Attendance/AttendanceEmp.dart';
-import 'GovennmentRelation/govenment.dart';
-import 'ITRequests/IT.dart';
-import 'Others/others.dart';
-import 'Requests/myRquests.dart';
-import 'Resignation/resignation.dart';
-import 'cashAdvance/cashAdvances.dart';
-import 'leaveEmp/leaveEmp.dart';
+import 'attendance/attendance_emp.dart';
+import 'govennment_relation/govenment.dart';
+import 'it_requests/it.dart';
+import 'others/others.dart';
+import 'requests/my_requests.dart';
+import 'resignation/resignation.dart';
+import 'cash_advance/cash_advances.dart';
+import 'leave_emp/leave_emp.dart';
 
 class HomeEmp extends StatelessWidget {
   @override
@@ -78,7 +77,7 @@ class HomeEmp extends StatelessWidget {
                       onTap: () => Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (BuildContext context) => leave())),
+                              builder: (BuildContext context) => Leave())),
                     ),
                   ),
                   SizedBox(
@@ -109,7 +108,7 @@ class HomeEmp extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                               builder: (BuildContext context) =>
-                                  cashAdances())),
+                                  CashAdances())),
                     ),
                   ),
                   SizedBox(
@@ -139,7 +138,7 @@ class HomeEmp extends StatelessWidget {
                       onTap: () => Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (BuildContext context) => cardStamp())),
+                              builder: (BuildContext context) => CardStamp())),
                     ),
                   ),
                   SizedBox(
@@ -169,7 +168,7 @@ class HomeEmp extends StatelessWidget {
                       onTap: () => Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (BuildContext context) => attendance())),
+                              builder: (BuildContext context) => Attendance())),
                     ),
                   ),
                   SizedBox(
@@ -199,7 +198,7 @@ class HomeEmp extends StatelessWidget {
                       onTap: () => Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (BuildContext context) => iT())),
+                              builder: (BuildContext context) => IT())),
                     ),
                   ),
                   SizedBox(
@@ -229,7 +228,7 @@ class HomeEmp extends StatelessWidget {
                       onTap: () => Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (BuildContext context) => govenments())),
+                              builder: (BuildContext context) => Governments())),
                     ),
                   ),
                   SizedBox(
@@ -260,7 +259,7 @@ class HomeEmp extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                               builder: (BuildContext context) =>
-                                  resignation())),
+                                  Resignation())),
                     ),
                   ),
                   SizedBox(
@@ -290,7 +289,7 @@ class HomeEmp extends StatelessWidget {
                       onTap: () => Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (BuildContext context) => other())),
+                              builder: (BuildContext context) => Other())),
                     ),
                   ),
                   Divider(
@@ -332,7 +331,7 @@ class HomeEmp extends StatelessWidget {
                       onTap: () => Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (BuildContext context) => myRequests())),
+                              builder: (BuildContext context) => MyRequests())),
                     ),
                   ),
                   Divider(
@@ -443,7 +442,7 @@ class HomeEmp extends StatelessWidget {
                       onTap: () => Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (BuildContext context) => profile())),
+                              builder: (BuildContext context) => Profile())),
                     ),
                   ),
                   Padding(
